@@ -1,12 +1,12 @@
 # O-mg-
 
-Inspiration
+# Inspiration
 Crime is becoming increasingly rampant in the United States, especially within major cities where most crimes occurring are not pre-planned for certain targets, but to anyone walking on the streets. Innocent bystanders who make no mistake except for being at the wrong place at the wrong time are forced into risky and dangerous situations. Watchdog aims to combat this by generating safe travel routes for users, helping them avoid high-risk areas at ease.
 
-What it does
+# What it does
 To address the pervasive issue of crime, we've developed "Watchdog," a web application designed to enhance user safety during their travels. Watchdog dynamically computes routes that deliberately bypass high-risk areas, prioritizing both security and efficiency. For example, when a user selects a journey from point A to point B, Watchdog instantly generates multiple route options, providing the safest path as the recommended choice.
 
-How we built it
+# How we built it
 Data Collection:
 
 Watchdog's foundation is built on a robust data aggregation process. We source real-time crime data directly from the Atlanta Police Department's live crime log, which continually updates with information regarding reported crimes. This data includes crucial details such as crime descriptions, the number of victims involved, and precise crime locations within the city.
@@ -33,10 +33,10 @@ In the spirit of community-driven safety, Watchdog incorporates a user submissio
 
 With a meticulous and comprehensive approach to data collection, analysis, and user engagement, Watchdog is designed to be a dynamic and holistic safety navigation tool for the Atlanta community.
 
-Challenges we ran into
+# Challenges we ran into
 One of the main challenges we encountered was developing an algorithm capable of finding a path between a start point and an end point that prioritized maximum safety as well as minimum time. We had to explore and consider many approaches to tackle this task, from clustering the crime hotspots to reduce the number of points to developing a heuristic that constructed a path motivated by Djkstra’s algorithm to employing a brute force strategy.
 
-Accomplishments that we're proud of
+# Accomplishments that we're proud of
 We’re proud of incorporating various technologies to build a cohesive, practical, and interactive product capable of helping people stay safe during their travels. We are particularly proud of developing a sophisticated route-generation algorithm that, when presented with an origin location and final destination, not only produces multiple feasible routes but also employs a robust safety assessment mechanism. This algorithm goes beyond mere route computation; it systematically evaluates the safety of each potential path, taking into account the real-time crime data that we aggregated.
 
 Another significant milestone in our project was the integration of the Google Maps API. This step allowed us to add a visually stunning heatmap to our application, offering real-time insights to our users. The heatmap, powered by the Google Maps API, provided a clear and intuitive representation of safety levels across different areas. It served as a valuable tool for users to make informed decisions regarding their travel routes.
@@ -48,5 +48,5 @@ Our project was a rich learning experience in the development of an engaging web
 
 On the backend, we delved into the world of Flask, a Python web framework. Flask provided us with the tools to establish efficient communication channels between the frontend and backend, enabling real-time data updates, user interactions, and data processing. The flexibility and scalability of Flask made it the ideal choice for building a robust and dynamic backend that could seamlessly support our web application.
 
-What's next for Watchdog
+# What's next for Watchdog
 Our next step is to scale the application to include multiple cities instead of just Atlanta, which means we need to find and aggregate more data sources. Additionally, we plan on incorporating NLP to analyze real-time radio data, including police dispatch audio. We also hope to improve several accessibility features such as adding voice input support, translation, etc. Ultimately, we hope to build a more accurate and holistic application.
