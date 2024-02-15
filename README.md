@@ -1,4 +1,4 @@
-# O-mg-
+# Watchdog
 
 # Inspiration
 Crime is becoming increasingly rampant in the United States, especially within major cities where most crimes occurring are not pre-planned for certain targets, but to anyone walking on the streets. Innocent bystanders who make no mistake except for being at the wrong place at the wrong time are forced into risky and dangerous situations. Watchdog aims to combat this by generating safe travel routes for users, helping them avoid high-risk areas at ease.
